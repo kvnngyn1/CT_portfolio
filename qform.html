@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kevin's Coding Temple Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>Kevin Nguyen</h1>
+    </div>
+  
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about_me.html">About me</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="qform.html" class="right">Questions?</a>
+    </div>
+  <!--END OF NAVBAR-->
+  
+      <form action="mailto:knguyen1094@gmail.com" 
+      method="POST" 
+      enctype=”multipart/form-data”
+        name=”EmailForm”>
+  Name:
+            <input type="text" name="Contact Name" size="30" maxlength="100">
+          </label>
+          <br />
+          <label>
+  Email:
+            <input type="email" name="email" size="30" maxlength="100">
+          </label>
+          <br />
+        </fieldset>
+        <br />
+        <fieldset>
+  <legend>
+  Your Review:
+          </legend>
+          <p>
+            <label for="hear-about">
+              Comments:
+            </label>
+            <br />
+            <textarea rows="4" cols="40" id="comments">
+            </textarea>
+  </p> 
+  <input type="submit" value="Submit review" />
+</fieldset>
+</form>
+
+  </body>
+  
+</html>

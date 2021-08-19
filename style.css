@@ -1,0 +1,94 @@
+
+/*HEADER*/
+.header {
+  padding: 80px; 
+  text-align: center; 
+  background: #bc481a; 
+  color: white; 
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+h2 {
+  color: #bc4d1a;
+  text-align: center;
+  font-size: 30px;
+}
+
+h3 {
+  color:#bc701a;
+  text-align: Center;
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+  text-align: left;
+}
+
+/*NAVIGATION BAR*/
+
+.navbar {
+  overflow: hidden; 
+  background-color: #333; 
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; 
+  display: block; 
+  color: white; 
+  text-align: center; 
+  padding: 14px 20px; 
+  text-decoration: none; 
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; 
+}
+
+.navbar a:hover {
+  background-color: #ddd; 
+  color: black; 
+}
+
+/*TWO COLUMN LAYOUT*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%; 
+  background-color: #f1f1f1; 
+  padding: 20px; 
+}
+
+.main {
+  flex: 70%; 
+  background-color: white; 
+  padding: 20px; 
+}
+
+/*MOBILE RESPONSIVE LAYOUT ALTERNATIVE*/
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
